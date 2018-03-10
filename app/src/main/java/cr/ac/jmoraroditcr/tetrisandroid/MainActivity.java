@@ -346,9 +346,53 @@ public class MainActivity extends AppCompatActivity {
                     if (gameMatrix[i + 1][j - 1] == 0)
                         view.setImageResource(R.color.black);
                     else if (gameMatrix[i + 1][j - 1] == -1)
-                        view.setImageResource(R.color.colorPrimary);
+                        switch (currentFigure) {
+                            case 1:
+                                view.setImageResource(R.color.iColor);
+                                break;
+                            case 2:
+                                view.setImageResource(R.color.jColor);
+                                break;
+                            case 3:
+                                view.setImageResource(R.color.lColor);
+                                break;
+                            case 4:
+                                view.setImageResource(R.color.oColor);
+                                break;
+                            case 5:
+                                view.setImageResource(R.color.sColor);
+                                break;
+                            case 6:
+                                view.setImageResource(R.color.tColor);
+                                break;
+                            case 7:
+                                view.setImageResource(R.color.zColor);
+                                break;
+                        }
                     else
-                        view.setImageResource(R.color.colorAccent);
+                        switch (gameMatrix[i + 1][j - 1]) {
+                            case 1:
+                                view.setImageResource(R.color.iColor);
+                                break;
+                            case 2:
+                                view.setImageResource(R.color.jColor);
+                                break;
+                            case 3:
+                                view.setImageResource(R.color.lColor);
+                                break;
+                            case 4:
+                                view.setImageResource(R.color.oColor);
+                                break;
+                            case 5:
+                                view.setImageResource(R.color.sColor);
+                                break;
+                            case 6:
+                                view.setImageResource(R.color.tColor);
+                                break;
+                            case 7:
+                                view.setImageResource(R.color.zColor);
+                                break;
+                        }
 
 
             }

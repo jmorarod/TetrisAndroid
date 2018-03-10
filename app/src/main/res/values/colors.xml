@@ -5,5 +5,12 @@
     <color name="colorAccent">#FF4081</color>
     <color name="gray">#4d4d4d</color>
     <color name="black">#000000</color>
+    <color name="iColor">#7ba6ed</color>
+    <color name="jColor">#090b6d</color>
+    <color name="lColor">#e56f09</color>
+    <color name="oColor">#fffa00</color>
+    <color name="sColor">#0aea07</color>
+    <color name="tColor">#9404ed</color>
+    <color name="zColor">#ed0404</color>
 
 </resources>
